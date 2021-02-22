@@ -30,7 +30,7 @@ In the last step, during Sense and Move Cycle, each time a robot senses (in this
 ## Lessons Learned 
 First, a robot starts out with some certainty/uncertainty about its position in a world, which is represented by an initial probability distribution, often called the initial belief or the prior. Then it cycles through sensor measurements and movements; Sense and Move cyclle. 
 
-<img src = "images/sense_move.png" width = 600>
+<img src = "images/sense_move.png" width = 400>
 
-When a robot senses, a measurement update happens; this is a simple multiplication that is based off of Bayes' rule, which says that we can update our belief based on measurements. This step was also followed by a normalization to make sure that the result distribution was still vald (and added up to 1).
-When it moves, a motion update or prediction step occurs; this step is a convolution that shifts the distribution in the direction of motion.
+1. When a robot senses, a measurement update happens; this is a simple multiplication that is based off of Bayes' rule, which says that we can update our belief based on measurements. This step was also followed by a normalization to make sure that the result distribution was still vald (and added up to 1).
+2. When it moves, a motion update or prediction step occurs; this step is a convolution that shifts the distribution in the direction of motion.
