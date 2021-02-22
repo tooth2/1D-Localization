@@ -5,7 +5,7 @@
 A robot perceives the world through its "senses." For example, self-driving cars use video, radar, and Lidar, to observe the world around them. As cars gather data, they build up a 3D world of observations that tells the car where it is, where other objects (like trees, pedestrians, and other vehicles) are, and where it should be going!
 
 To start from basic localization, this project is to learn 1D representation of the world for simplicity to solve more complex robot localization in 3D later. 
-![Lidar](images/lidar.png)
+<img src = "images/lidar.png" width = 800>
 
 ## Steps
 There are 9 steps to finish 1 dimensional robot localization logic. 
@@ -30,7 +30,7 @@ In the last step, during Sense and Move Cycle, each time a robot senses (in this
 ## Lessons Learned 
 First, a robot starts out with some certainty/uncertainty about its position in a world, which is represented by an initial probability distribution, often called the initial belief or the prior. Then it cycles through sensor measurements and movements; Sense and Move cyclle. 
 
-![Sense/move cycle](images/sense_move.png)
+<img src = "images/sense_move.png" width = 600>
 
 When a robot senses, a measurement update happens; this is a simple multiplication that is based off of Bayes' rule, which says that we can update our belief based on measurements. This step was also followed by a normalization to make sure that the result distribution was still vald (and added up to 1).
 When it moves, a motion update or prediction step occurs; this step is a convolution that shifts the distribution in the direction of motion.
