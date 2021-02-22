@@ -8,7 +8,7 @@ To start basics from localization, this project is to learn 2D representation of
 ![Lidar](images/lidar.png)
 
 There are 9 steps to finish 1 dimensional robot localization logic. 
-1. [Intro to 1D robot world](/1. 1D Robot World.ipynb)
+1. [Intro to 1D robot world](1.%201D%20Robot%20World.ipynb)
 2. [Probability after Sense](/2. Probability After Sense.ipynb)
 3. [Sense Function](/3. Sense Function.ipynb)
 4. [Normalization](/4. Normalized Sense Function.ipynb)
