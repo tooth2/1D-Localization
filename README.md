@@ -4,7 +4,7 @@
 ## The goal
 A robot perceives the world through its "senses." For example, self-driving cars use video, radar, and Lidar, to observe the world around them. As cars gather data, they build up a 3D world of observations that tells the car where it is, where other objects (like trees, pedestrians, and other vehicles) are, and where it should be going!
 
-To start from basic localization, this project is to learn 1D representation of the world for simplicity to solve more complex robot localization in 3D later. 
+To start from basic localization, the goal is to apply one-dimensional representation of the world for simplicity to solve more complex robot localization in 3D later. 
 <img src = "images/lidar.png" width = 800>
 
 ## Steps
