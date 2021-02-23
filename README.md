@@ -27,7 +27,7 @@ Also there are continuous probability distributions when locating objects that a
 
 In the last step, during Sense and Move Cycle, each time a robot senses (in this case a red or green color)it gains information about its environment, and everytime it moves, it loses some information due to motion uncertainty.
 
-## Lessons Learned 
+## Takeaways
 First, a robot starts out with some certainty/uncertainty about its position in a world, which is represented by an initial probability distribution, often called the initial belief or the prior. Then it cycles through sensor measurements and movements; Sense and Move cyclle. 
 
 <img src = "images/sense_move.png" width = 400>
